@@ -11,6 +11,8 @@ body::before {
   content: "";
   position: fixed;
   background: #040404 url("../img/duyogbackg.jpg") top right no-repeat;
+  max-width: 100%;
+  height: auto;
   background-size: cover;
   left: 0;
   right: 0;
