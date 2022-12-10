@@ -49,10 +49,11 @@ h6 {
 --------------------------------------------------------------*/
 .mr-auto {
   position: fixed;
-  width: 115px;
+  width: 110px;
   height: auto;
   float: left;
   margin-left: -110px;
+  margin-top: -60px;
 
 }
 #header {
