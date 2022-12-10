@@ -405,6 +405,12 @@ section .container {
   color: #18d26e;
 }
 
+#about-headers {
+  background: linear-gradient(90deg, rgba(14,80,17,1) 0%, rgba(9,121,71,1) 35%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .about-me .content ul {
   list-style: none;
   padding: 0;
