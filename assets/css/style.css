@@ -259,14 +259,14 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: rgb(54, 167, 87);
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgb(0, 0, 0);
+  color: rgb(129, 123, 123);
   font-size: 28px;
   cursor: pointer;
   display: none;
