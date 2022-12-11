@@ -10,10 +10,11 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/duyogbackg.jpg") top right no-repeat;
+  background: #309e5e url("../img/duyogbackg.jpg") top right no-repeat;
   max-width: 100%;
   height: auto;
-  background-size: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
   left: 0;
   right: 0;
   top: 0;
@@ -54,6 +55,7 @@ h6 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: medium;
 }
 #header {
   transition: ease-in-out 0.3s;
@@ -108,7 +110,7 @@ h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,7 +242,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #ffffff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -264,7 +266,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -292,7 +294,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(41, 133, 82, 0.9);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
