@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #309e5e url("../img/dulangan.jpg") top right no-repeat;
+  background: #309e5e url("/assets/img/dulangan.jpg") top right no-repeat;
   max-width: 100%;
   height: auto;
   background-size:cover;
