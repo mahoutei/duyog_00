@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #309e5e url("../img/duyogbackg.jpg") top right no-repeat;
+  background: #309e5e url("../img/dulangan.jpg") top right no-repeat;
   max-width: 100%;
   height: auto;
   background-size:cover;
@@ -93,7 +93,7 @@ h6 {
 }
 
 #header h2 span {
-  color: rgb(33, 160, 60);
+  color: rgb(228, 228, 228);
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
